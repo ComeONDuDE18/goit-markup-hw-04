@@ -269,6 +269,39 @@ h3 {
     background-color: #F4F4FD;
     padding: 120px 0;
 }
+
+.socialmedia-list {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.socialmedia-link {
+    width: 100%;
+    height: 100%;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.socialmedia-link:hover,
+.socialmedia-link:focus {
+    background-color: #404bbf;
+}
+
+.socialmedia-item {
+    width: 40px;
+    height: 40px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.icon-three {
+    fill: #f4f4fd;
+}
+
 .section-four {
     padding: 120px 0;
 }
@@ -284,6 +317,8 @@ h3 {
     background-color: #FFFFFF;
     flex-basis: calc((100% - 3 * 24px) / 4);
     border-radius: 0px 0px 4px 4px;
+    text-align: center;
+  margin-bottom: 8px;
 }
 
 .listofteam {
@@ -317,7 +352,7 @@ h3 {
     color: #2e2f42;
     margin-bottom: 72px;
 }
-
+.studio-list-item,
 .tittle,
 .foto-tittle,
 .foto-tittle-team {
